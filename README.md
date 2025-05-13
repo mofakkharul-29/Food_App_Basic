@@ -1,16 +1,34 @@
-# food_app
+# 🍽️ Basic Food App
 
-A new Flutter project.
+This is a basic **Food App UI** built using **Flutter and Dart**. It showcases only the **front-end part** of the application, with a focus on a clean layout.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- Displays a list of meals with images, ingredients, and preparation steps
+- Add and remove meals from favorites
+- Smooth state management using **Riverpod**
+- Custom fonts using **Google Fonts**
+- Image loading with fade-in effect using `transparent_image`
 
-A few resources to get you started if this is your first Flutter project:
+## 🧩 Dependencies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `flutter_riverpod`
+- `google_fonts`
+- `transparent_image`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Requirements
+
+- **Flutter SDK**
+- **NDK 23 or higher** required (for Android builds)
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+2. Navigate to the project directory:
+   cd your-repo-name
+3. Get the dependencies:
+   flutter pub get
+4. Run the app:
+   flutter run
